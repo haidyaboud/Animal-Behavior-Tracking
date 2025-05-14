@@ -16,10 +16,10 @@ This work was published in **IEEE Xplore**: [Link to Publication](https://ieeexp
 
 ## 🚀 Key Features
 
-- **🟥 Object Detection:** Detects animals in each video frame using YOLOv8.
-- **🟦 Multi-Object Tracking:** Tracks animals across frames using DeepSORT with custom ResNet-50 for appearance features.
-- **📈 Trajectory Analysis:** Extracts movement trajectories and clusters them using K-Means to identify behavioral patterns.
-- **🖼️ Visualization:** Creates annotated videos, heatmaps, and trajectory plots to visualize movement and interaction.
+- **🟥 Object Detection:** Detects animals (zebrafish and rats) in video frames using YOLOv8.
+- **🟦 Multi-Object Tracking:** Tracks multiple animals across frames using DeepSORT with a custom ResNet-50 for appearance features.
+- **📈 Trajectory Analysis:** Extracts and clusters trajectories using K-Means to identify behavioral patterns.
+- **🖼️ Visualization:** Generates annotated videos, heatmaps, and trajectory plots for behavior analysis.
 
 ---
 
@@ -29,6 +29,19 @@ The system was trained and evaluated on:
 
 - **3D-ZeF20**: Zebrafish behavior dataset.
 - **AnimalTrack**: Chicken behavior dataset (used for comparative analysis).
+- **Custom Rat Dataset**: Experimental dataset for rat behavior tracking and analysis.
+
+---
+
+## 🎬 Demos
+
+- **YOLOv8 Demo** – [Watch Demo](#) 
+- 
+
+https://github.com/user-attachments/assets/af106123-0711-4cb2-a7d0-7b7b5ffc98dd
+
+
+- **YOLOv8 + DeepSORT Demo** – [Watch Demo](#) *(Replace with actual link)*
 
 ---
 
