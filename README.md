@@ -20,3 +20,10 @@ Example Results
 YOLO identifies animals in video frames with bounding boxes:
 ![Rat](https://github.com/user-attachments/assets/0d636430-c6c9-4a78-9c2e-66ad1b415fa6)
 ![WhatsApp Image 2025-04-21 at 02 40 49_511a286c](https://github.com/user-attachments/assets/70d4f6e4-dd8c-4fbe-ad96-3596ee1b500e)
+![YOLO_Only](https://github.com/user-attachments/assets/9a6855ef-5cc8-4743-bb6f-7355fccf863f)
+
+Multi-Object Tracking
+![Uploading YOLO+Deepsort.png…]()
+![YOLO+Deep](https://github.com/user-attachments/assets/e71d1652-1ab4-43db-a5f5-ae542c40aed5)
+
+
