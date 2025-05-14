@@ -12,4 +12,11 @@ Visualization: Generates heatmaps, trajectory plots, and annotated videos.
 
 Datasets
 The system was trained and tested on:
+3D-ZeF20: Zebrafish behavior dataset.
+AnimalTrack: Chicken behavior dataset (used for comparison). Note: Due to size constraints, datasets are not included. See Data Access for instructions.
 
+Example Results
+
+YOLO identifies animals in video frames with bounding boxes:
+![Rat](https://github.com/user-attachments/assets/0d636430-c6c9-4a78-9c2e-66ad1b415fa6)
+![WhatsApp Image 2025-04-21 at 02 40 49_511a286c](https://github.com/user-attachments/assets/70d4f6e4-dd8c-4fbe-ad96-3596ee1b500e)
