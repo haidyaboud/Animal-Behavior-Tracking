@@ -1,29 +1,74 @@
-Animal Behavior Tracking for Neurological Disorder Diagnosis
-This repository contains the code and resources for a computer vision-based system to track and analyze animal behaviors (zebrafish and rats) to aid in diagnosing neurological disorders.
-The project leverages YOLOv8 for object detection, DeepSORT with a custom ResNet-50 for multi-object tracking, and K-Means clustering for trajectory analysis.The system processes video data, extracts behavioral patterns, and generates visualizations like heatmaps and trajectory plots.
+# 🧠 Animal Behavior Tracking for Neurological Disorder Diagnosis
 
-This work was published in IEEE Xplore: https://ieeexplore.ieee.org/document/10783596.
+This repository provides code and resources for a computer vision system designed to **track and analyze animal behavior** (specifically **zebrafish and rats**) to support the **diagnosis of neurological disorders**.
 
-Key Features
-Object Detection: Identifies animals in video frames using YOLOv8.
-Multi-Object Tracking: Tracks animals across frames using DeepSORT with a custom ResNet-50 for appearance features.
-Trajectory Analysis: Extracts and clusters trajectories to identify behavioral patterns.
-Visualization: Generates heatmaps, trajectory plots, and annotated videos.
+The system leverages:
+- **YOLOv8** for real-time object detection
+- **DeepSORT** with a **custom ResNet-50** for appearance-based multi-object tracking
+- **K-Means clustering** for trajectory pattern analysis
 
-Datasets
-The system was trained and tested on:
-3D-ZeF20: Zebrafish behavior dataset.
+The final output includes **behavioral visualizations**, such as **heatmaps** and **trajectory plots**, extracted from raw video data.
 
-AnimalTrack: Chicken behavior dataset (used for comparison).
-Example Results
+📄 **Published Paper**  
+This work was published in **IEEE Xplore**: [Link to Publication](https://ieeexplore.ieee.org/document/10783596)
 
-YOLO identifies animals in video frames with bounding boxes:
-![Rat](https://github.com/user-attachments/assets/0d636430-c6c9-4a78-9c2e-66ad1b415fa6)
-![WhatsApp Image 2025-04-21 at 02 40 49_511a286c](https://github.com/user-attachments/assets/70d4f6e4-dd8c-4fbe-ad96-3596ee1b500e)
-![YOLO_Only](https://github.com/user-attachments/assets/9a6855ef-5cc8-4743-bb6f-7355fccf863f)
+---
 
-Multi-Object Tracking
-![YOLO+Deepsort](https://github.com/user-attachments/assets/0d7915d7-f2ef-4768-8ecb-1bdbe8e8bac3)
-![YOLO+Deep](https://github.com/user-attachments/assets/e71d1652-1ab4-43db-a5f5-ae542c40aed5)
+## 🚀 Key Features
 
+- **🟥 Object Detection:** Detects animals in each video frame using YOLOv8.
+- **🟦 Multi-Object Tracking:** Tracks animals across frames using DeepSORT with custom ResNet-50 for appearance features.
+- **📈 Trajectory Analysis:** Extracts movement trajectories and clusters them using K-Means to identify behavioral patterns.
+- **🖼️ Visualization:** Creates annotated videos, heatmaps, and trajectory plots to visualize movement and interaction.
+
+---
+
+## 📂 Datasets
+
+The system was trained and evaluated on:
+
+- **3D-ZeF20**: Zebrafish behavior dataset.
+- **AnimalTrack**: Chicken behavior dataset (used for comparative analysis).
+
+---
+
+## 🧪 Example Results
+
+### 🎯 Object Detection  
+YOLOv8 identifies and localizes animals in frames:
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/0d636430-c6c9-4a78-9c2e-66ad1b415fa6" width="250"/>
+  <img src="https://github.com/user-attachments/assets/70d4f6e4-dd8c-4fbe-ad96-3596ee1b500e" width="250"/>
+  <img src="https://github.com/user-attachments/assets/9a6855ef-5cc8-4743-bb6f-7355fccf863f" width="250"/>
+</p>
+
+### 🧍 Multi-Object Tracking  
+Combining YOLOv8 with DeepSORT for continuous animal tracking:
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/0d7915d7-f2ef-4768-8ecb-1bdbe8e8bac3" width="300"/>
+  <img src="https://github.com/user-attachments/assets/e71d1652-1ab4-43db-a5f5-ae542c40aed5" width="300"/>
+</p>
+
+---
+
+## 📊 Trajectory Analysis & Visualization
+
+- Heatmaps to highlight areas of frequent activity
+- Trajectory clustering to detect behavioral patterns
+
+(*Add visualizations or links here if available*)
+
+---
+
+## 🧰 Technologies Used
+
+- **YOLOv8** – Object Detection
+- **DeepSORT** – Multi-Object Tracking
+- **ResNet-50** – Appearance Feature Extractor
+- **OpenCV / Matplotlib / Seaborn** – Visualization Tools
+- **Sklearn** – Clustering with K-Means
+
+---
 
