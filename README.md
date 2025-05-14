@@ -35,10 +35,16 @@ The system was trained and evaluated on:
 
 ## 🎬 Demos
 
-- **YOLOv8 Demo** – [Watch Demo](#) 
-- 
+- **YOLO Demo** –
 
+- **Rats** –
 https://github.com/user-attachments/assets/af106123-0711-4cb2-a7d0-7b7b5ffc98dd
+- **Fish** –
+
+
+https://github.com/user-attachments/assets/7833a28a-9794-4983-938a-b3b79d6a72cc
+
+
 
 
 - **YOLOv8 + DeepSORT Demo** – [Watch Demo](#) *(Replace with actual link)*
